@@ -1,0 +1,10 @@
+syntax = "proto3";
+package choreo;
+
+message BoolArray {
+  repeated Bool data = 1;
+}
+
+message Bool {
+  bool data = 1;
+}

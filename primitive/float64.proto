@@ -1,0 +1,10 @@
+syntax = "proto3";
+package choreo;
+
+message Float64Array {
+  repeated Float64 data = 1;
+}
+
+message Float64 {
+  float data = 1;
+}
