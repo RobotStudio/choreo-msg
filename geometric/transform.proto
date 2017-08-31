@@ -1,0 +1,16 @@
+syntax = "proto3";
+import "primitive/header.proto";
+import "geometric/vector.proto";
+import "geometric/quaternion.proto";
+
+package choreo;
+
+message TransformStamped {
+  Header header = 1;
+  Transform transform = 2;
+}
+
+message Transform {
+  Vector3 translation = 1;
+  Quaternion rotation = 2;
+}

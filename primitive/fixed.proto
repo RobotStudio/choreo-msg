@@ -8,8 +8,6 @@ message Fixed32Array {
 message Fixed32 {
   uint32 data = 1;
 }
-syntax = "proto3";
-package choreo;
 
 message Fixed64Array {
   repeated Fixed64 data = 1;

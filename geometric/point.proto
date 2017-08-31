@@ -6,12 +6,12 @@ package choreo;
 
 message Point32Stamped {
   Header header = 1;
-  Point32 inertia = 2;
+  Point32 point = 2;
 }
 
 message PointStamped {
   Header header = 1;
-  Point inertia = 2;
+  Point point = 2;
 }
 
 message Point32 {

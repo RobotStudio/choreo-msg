@@ -1,6 +1,6 @@
 syntax = "proto3";
 import "primitive/header.proto";
-import "primitive/float64.proto";
+import "primitive/float.proto";
 import "geometric/vector.proto";
 
 package choreo;

@@ -5,22 +5,23 @@ import "geometric/vector.proto";
 
 package choreo;
 
-message AccelStamped {
+message TwistStamped {
   Header header = 1;
-  Accel accel = 2;
+  Twist twist = 2;
 }
 
-message AccelWithCovarianceStamped {
+message TwistWithCovarianceStamped {
   Header header = 1;
-  AccelWithCovariance accel = 2;
+  TwistWithCovariance twist = 2;
 }
 
-message AccelWithCovariance {
-  Accel accel = 1;
-  Float64Array covariance = 2;
-}
-
-message Accel {
+message Twist {
   Vector3 linear = 1;
   Vector3 angular = 2;
 }
+
+message TwistWithCovariance {
+  Twist twist = 1;
+  Float64Array covariance = 2;
+}
+
