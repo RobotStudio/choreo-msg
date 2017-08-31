@@ -1,6 +1,16 @@
 syntax = "proto3";
 package choreo;
 
+message Fixed32Array {
+  repeated Fixed32 data = 1;
+}
+
+message Fixed32 {
+  uint32 data = 1;
+}
+syntax = "proto3";
+package choreo;
+
 message Fixed64Array {
   repeated Fixed64 data = 1;
 }

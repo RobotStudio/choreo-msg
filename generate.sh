@@ -2,6 +2,8 @@
 
 builds="./build"
 
+[ "$#" -gt 0 ] || { echo "Please specify a language"; exit 1; }
+
 PROTOC="$(which protoc)"
 [ -f "$PROTOC" ] || { echo "Do you have protoc installed?"; exit 1; }
 
@@ -14,7 +16,7 @@ done
 
 find . -iname '*.proto' -type f | while read -r f; do
   p="$(dirname "$f")"
-  protoc -I="$p" $lang_opts "$f"
+  $PROTOC $lang_opts "$f"
 done
 
 exit 0

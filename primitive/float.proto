@@ -8,3 +8,19 @@ message FloatArray {
 message Float {
   float data = 1;
 }
+
+message Float32Array {
+  repeated Float32 data = 1;
+}
+
+message Float32 {
+  float data = 1;
+}
+
+message Float64Array {
+  repeated Float64 data = 1;
+}
+
+message Float64 {
+  float data = 1;
+}
