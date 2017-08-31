@@ -55,3 +55,10 @@ message Image {
   UInt32 step = 6;
   repeated UInt32 data = 7;
 }
+
+message ColorRgba {
+  Float32 r = 1;
+  Float32 g = 2;
+  Float32 b = 3;
+  Float32 a = 4;
+}
