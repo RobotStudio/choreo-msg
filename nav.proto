@@ -46,3 +46,14 @@ message Path {
   Header header = 1;
   repeated Pose poses = 2;
 }
+
+message GetPlanRequest {
+  PoseStamped start = 1;
+  PoseStamped goal = 2;
+  Float32 tolerance = 3;
+}
+
+message SetMapRequesg {
+  OccupancyGrid map = 1;
+  PoseWithCovarianceStamped initial_pose = 2;
+}

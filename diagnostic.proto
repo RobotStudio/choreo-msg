@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+import "primitive/bool.proto";
 import "primitive/header.proto";
 import "primitive/string.proto";
 
@@ -27,4 +28,16 @@ message DiagnosticStatus {
 message DiagnosticArray {
   Header header = 1;
   repeated DiagnosticStatus status = 2;
+}
+
+message ServiceResponse {
+  Header header = 1;
+  Bool success = 2;
+  String message = 3;
+}
+
+message ServiceSelfTest {
+  String id = 1;
+  Bool passed = 2;
+  repeated DiagnosticStatus status = 3;
 }
