@@ -39,5 +39,5 @@ message Pose2D {
 
 message PoseWithCovariance {
   Pose pose = 1;
-  Float64Array covariance = 2;
+  repeated Float64 covariance = 2;
 }

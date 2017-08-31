@@ -17,7 +17,7 @@ message AccelWithCovarianceStamped {
 
 message AccelWithCovariance {
   Accel accel = 1;
-  Float64Array covariance = 2;
+  repeated Float64 covariance = 2;
 }
 
 message Accel {

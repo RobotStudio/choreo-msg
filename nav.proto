@@ -44,5 +44,5 @@ message Odometry {
 
 message Path {
   Header header = 1;
-  PoseArray poses = 2;
+  repeated Pose poses = 2;
 }
