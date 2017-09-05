@@ -1,6 +1,7 @@
 #!/bin/bash
 
-builds="./build"
+msgs="./msg"
+builds="../build"
 
 [ "$#" -gt 0 ] || { echo "Please specify a language"; exit 1; }
 
@@ -14,6 +15,7 @@ for lang in $*; do
   [ -d "$builds/$lang" ] || mkdir -p "$builds/$lang"
 done
 
+cd $msgs
 find . -iname '*.proto' -type f | while read -r f; do
   p="$(dirname "$f")"
   $PROTOC $lang_opts "$f"
