@@ -8,14 +8,14 @@ builds="../build"
 PROTOC="$(which protoc)"
 [ -f "$PROTOC" ] || { echo "Do you have protoc installed?"; exit 1; }
 
+cd $msgs
+
 lang_opts=
-#[ "$#" -gt 0 ] || lang_opts="--go_out=$builds/go"
 for lang in $*; do
   lang_opts="$lang_opts --${lang}_out=$builds/$lang"
-  [ -d "$builds/$lang" ] || mkdir -p "$builds/$lang"
+  [ -d "${builds}/$lang" ] || mkdir -p "${builds}/$lang"
 done
 
-cd $msgs
 find . -iname '*.proto' -type f | while read -r f; do
   p="$(dirname "$f")"
   $PROTOC $lang_opts "$f"
