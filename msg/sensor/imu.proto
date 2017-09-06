@@ -8,6 +8,8 @@ import "geometric/vector.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+
 message Imu {
   Header header = 1;
 

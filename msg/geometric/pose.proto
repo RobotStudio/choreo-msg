@@ -6,6 +6,8 @@ import "geometric/quaternion.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+
 message PoseStamped {
   Header header = 1;
   Pose pose = 2;

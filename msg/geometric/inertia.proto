@@ -5,6 +5,8 @@ import "geometric/vector.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+
 message InertiaStamped {
   Header header = 1;
   Inertia inertia = 2;

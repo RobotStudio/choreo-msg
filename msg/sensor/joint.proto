@@ -10,6 +10,8 @@ import "geometric/wrench.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+
 message JointState {
   Header header = 1;
   repeated String names = 2;
