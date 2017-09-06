@@ -5,10 +5,13 @@ Message definitions for the Choreo framework.
 
 ## Requirements
 
-This project assumes that you'll be using the [choreo-msg](https://github.com/RobotStudio/choreo-msg) proto library.
+This project only has ProtoBuf requirements.
 
 
 ## Generating
+
+If you intend to use this project with [choreo-svc](https://github.com/RobotStudio/choreo-svc) then you should generate
+using that project instead.
 
 For generating, use the provided `Makefile` and override options as needed.
 
