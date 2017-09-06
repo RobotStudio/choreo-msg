@@ -20,7 +20,7 @@ message JointState {
   repeated Float64 efforts = 5;
 }
 
-message MultiDofJointState {
+message MultiDOFJointState {
   Header header = 1;
   repeated Transform transforms = 2;
   repeated Twist twists = 3;

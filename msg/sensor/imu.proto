@@ -10,7 +10,7 @@ package choreo;
 
 option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
 
-message Imu {
+message IMU {
   Header header = 1;
 
   Quaternion orientation = 2;

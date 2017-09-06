@@ -55,7 +55,7 @@ message GetPlanRequest {
   Float32 tolerance = 3;
 }
 
-message SetMapRequesg {
+message SetMapRequest {
   OccupancyGrid map = 1;
   PoseWithCovarianceStamped initial_pose = 2;
 }

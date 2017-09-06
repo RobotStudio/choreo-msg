@@ -58,7 +58,7 @@ message Image {
   repeated UInt32 data = 7;
 }
 
-message ColorRgba {
+message ColorRGBA {
   Float32 r = 1;
   Float32 g = 2;
   Float32 b = 3;

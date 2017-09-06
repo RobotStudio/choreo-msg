@@ -9,13 +9,13 @@ package choreo;
 
 option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
 
-message GoalId {
+message GoalID {
   google.protobuf.Timestamp stamp = 1;
   String id = 2;
 }
 
 message GoalStatus {
-  GoalId goal_id = 1;
+  GoalID goal_id = 1;
   enum GoalStatusType {
     PENDING = 0;
     ACTIVE = 1;
