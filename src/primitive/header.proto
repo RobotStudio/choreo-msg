@@ -2,7 +2,7 @@ syntax = "proto3";
 import "google/protobuf/timestamp.proto";
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+option go_package = "github.com/RobotStudio/choreo-msg/msg/primitive;rs.choreo.msg.primitive";
 
 message Header {
   uint32 seq = 1;

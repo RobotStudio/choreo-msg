@@ -3766,9 +3766,9 @@ public final class Joint {
       "\001\n\022MultiDOFJointState\022\036\n\006header\030\001 \001(\0132\016.",
       "choreo.Header\022%\n\ntransforms\030\002 \003(\0132\021.chor" +
       "eo.Transform\022\035\n\006twists\030\003 \003(\0132\r.choreo.Tw" +
-      "ist\022 \n\010wrenches\030\004 \003(\0132\016.choreo.WrenchB+Z" +
-      ")github.com/RobotStudio/choreo-msg/msg;m" +
-      "sgb\006proto3"
+      "ist\022 \n\010wrenches\030\004 \003(\0132\016.choreo.WrenchBCZ" +
+      "Agithub.com/RobotStudio/choreo-msg/msg/s" +
+      "ensor;rs.choreo.msg.sensorb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

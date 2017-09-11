@@ -213,11 +213,12 @@ void AddDescriptorsImpl() {
       "ssage\030\003 \001(\0132\016.choreo.String\"u\n\017ServiceSe"
       "lfTest\022\032\n\002id\030\001 \001(\0132\016.choreo.String\022\034\n\006pa"
       "ssed\030\002 \001(\0132\014.choreo.Bool\022(\n\006status\030\003 \003(\013"
-      "2\030.choreo.DiagnosticStatusB+Z)github.com"
-      "/RobotStudio/choreo-msg/msg;msgb\006proto3"
+      "2\030.choreo.DiagnosticStatusB@Z>github.com"
+      "/RobotStudio/choreo-msg/msg;rs.choreo.ms"
+      "g.diagnosticb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 799);
+      descriptor, 820);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "diagnostic.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fbool_2eproto::AddDescriptors();

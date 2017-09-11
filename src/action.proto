@@ -7,7 +7,7 @@ import "primitive/string.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+option go_package = "github.com/RobotStudio/choreo-msg/msg;rs.choreo.msg.action";
 
 message GoalID {
   google.protobuf.Timestamp stamp = 1;

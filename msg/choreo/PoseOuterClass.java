@@ -5981,8 +5981,9 @@ public final class PoseOuterClass {
       "Float64\022\036\n\005theta\030\003 \001(\0132\017.choreo.Float64\"" +
       "U\n\022PoseWithCovariance\022\032\n\004pose\030\001 \001(\0132\014.ch" +
       "oreo.Pose\022#\n\ncovariance\030\002 \003(\0132\017.choreo.F" +
-      "loat64B+Z)github.com/RobotStudio/choreo-" +
-      "msg/msg;msgb\006proto3"
+      "loat64BIZGgithub.com/RobotStudio/choreo-" +
+      "msg/msg/geometric;rs.choreo.msg.geometri",
+      "cb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

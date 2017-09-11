@@ -119,11 +119,12 @@ void AddDescriptorsImpl() {
   static const char descriptor[] = {
       "\n\024primitive/bool.proto\022\006choreo\"\'\n\tBoolAr"
       "ray\022\032\n\004data\030\001 \003(\0132\014.choreo.Bool\"\024\n\004Bool\022"
-      "\014\n\004data\030\001 \001(\010B+Z)github.com/RobotStudio/"
-      "choreo-msg/msg;msgb\006proto3"
+      "\014\n\004data\030\001 \001(\010BIZGgithub.com/RobotStudio/"
+      "choreo-msg/msg/primitive;rs.choreo.msg.p"
+      "rimitiveb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 146);
+      descriptor, 176);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "primitive/bool.proto", &protobuf_RegisterTypes);
   ::google::protobuf::internal::OnShutdown(&TableStruct::Shutdown);

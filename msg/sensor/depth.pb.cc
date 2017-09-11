@@ -348,11 +348,12 @@ void AddDescriptorsImpl() {
       "choreo.Float32\022\"\n\tmax_range\030\005 \001(\0132\017.chor"
       "eo.Float32\022\036\n\005range\030\006 \001(\0132\017.choreo.Float"
       "32\"-\n\rRadiationType\022\016\n\nULTRASOUND\020\000\022\014\n\010I"
-      "NFRARED\020\001B+Z)github.com/RobotStudio/chor"
-      "eo-msg/msg;msgb\006proto3"
+      "NFRARED\020\001BCZAgithub.com/RobotStudio/chor"
+      "eo-msg/msg/sensor;rs.choreo.msg.sensorb\006"
+      "proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 2062);
+      descriptor, 2086);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "sensor/depth.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fbool_2eproto::AddDescriptors();

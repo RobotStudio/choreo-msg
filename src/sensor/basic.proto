@@ -8,7 +8,7 @@ import "primitive/string.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+option go_package = "github.com/RobotStudio/choreo-msg/msg/sensor;rs.choreo.msg.sensor";
 
 message FluidPressure {
   Header header = 1;

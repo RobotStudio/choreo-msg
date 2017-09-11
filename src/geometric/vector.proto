@@ -3,7 +3,7 @@ import "primitive/header.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg;msg";
+option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometric";
 
 message Vector3Stamped {
   Header header = 1;

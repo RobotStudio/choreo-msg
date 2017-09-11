@@ -802,9 +802,9 @@ public final class HeaderOuterClass {
       "\n\026primitive/header.proto\022\006choreo\032\037google" +
       "/protobuf/timestamp.proto\"R\n\006Header\022\013\n\003s" +
       "eq\030\001 \001(\r\022)\n\005stamp\030\002 \001(\0132\032.google.protobu" +
-      "f.Timestamp\022\020\n\010frame_id\030\003 \001(\tB+Z)github." +
-      "com/RobotStudio/choreo-msg/msg;msgb\006prot" +
-      "o3"
+      "f.Timestamp\022\020\n\010frame_id\030\003 \001(\tBIZGgithub." +
+      "com/RobotStudio/choreo-msg/msg/primitive" +
+      ";rs.choreo.msg.primitiveb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3501,8 +3501,9 @@ public final class PointOuterClass {
       "\001y\030\002 \001(\0132\017.choreo.Float32\022\032\n\001z\030\003 \001(\0132\017.c" +
       "horeo.Float32\"[\n\005Point\022\032\n\001x\030\001 \001(\0132\017.chor" +
       "eo.Float64\022\032\n\001y\030\002 \001(\0132\017.choreo.Float64\022\032",
-      "\n\001z\030\003 \001(\0132\017.choreo.Float64B+Z)github.com" +
-      "/RobotStudio/choreo-msg/msg;msgb\006proto3"
+      "\n\001z\030\003 \001(\0132\017.choreo.Float64BIZGgithub.com" +
+      "/RobotStudio/choreo-msg/msg/geometric;rs" +
+      ".choreo.msg.geometricb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -3626,8 +3626,9 @@ public final class FloatOuterClass {
       "a\030\001 \003(\0132\017.choreo.Float32\"\027\n\007Float32\022\014\n\004d" +
       "ata\030\001 \001(\002\"-\n\014Float64Array\022\035\n\004data\030\001 \003(\0132" +
       "\017.choreo.Float64\"\027\n\007Float64\022\014\n\004data\030\001 \001(" +
-      "\002B+Z)github.com/RobotStudio/choreo-msg/m" +
-      "sg;msgb\006proto3"
+      "\002BIZGgithub.com/RobotStudio/choreo-msg/m" +
+      "sg/primitive;rs.choreo.msg.primitiveb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

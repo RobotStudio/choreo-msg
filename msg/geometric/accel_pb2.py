@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/accel.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x15geometric/accel.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x16geometric/vector.proto\"L\n\x0c\x41\x63\x63\x65lStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1c\n\x05\x61\x63\x63\x65l\x18\x02 \x01(\x0b\x32\r.choreo.Accel\"h\n\x1a\x41\x63\x63\x65lWithCovarianceStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12*\n\x05\x61\x63\x63\x65l\x18\x02 \x01(\x0b\x32\x1b.choreo.AccelWithCovariance\"X\n\x13\x41\x63\x63\x65lWithCovariance\x12\x1c\n\x05\x61\x63\x63\x65l\x18\x01 \x01(\x0b\x32\r.choreo.Accel\x12#\n\ncovariance\x18\x02 \x03(\x0b\x32\x0f.choreo.Float64\"J\n\x05\x41\x63\x63\x65l\x12\x1f\n\x06linear\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12 \n\x07\x61ngular\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3B+Z)github.com/RobotStudio/choreo-msg/msg;msgb\x06proto3')
+  serialized_pb=_b('\n\x15geometric/accel.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x16geometric/vector.proto\"L\n\x0c\x41\x63\x63\x65lStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1c\n\x05\x61\x63\x63\x65l\x18\x02 \x01(\x0b\x32\r.choreo.Accel\"h\n\x1a\x41\x63\x63\x65lWithCovarianceStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12*\n\x05\x61\x63\x63\x65l\x18\x02 \x01(\x0b\x32\x1b.choreo.AccelWithCovariance\"X\n\x13\x41\x63\x63\x65lWithCovariance\x12\x1c\n\x05\x61\x63\x63\x65l\x18\x01 \x01(\x0b\x32\r.choreo.Accel\x12#\n\ncovariance\x18\x02 \x03(\x0b\x32\x0f.choreo.Float64\"J\n\x05\x41\x63\x63\x65l\x12\x1f\n\x06linear\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12 \n\x07\x61ngular\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3BIZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometricb\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_float__pb2.DESCRIPTOR,geometric_dot_vector__pb2.DESCRIPTOR,])
 
@@ -224,5 +224,5 @@ _sym_db.RegisterMessage(Accel)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z)github.com/RobotStudio/choreo-msg/msg;msg'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometric'))
 # @@protoc_insertion_point(module_scope)

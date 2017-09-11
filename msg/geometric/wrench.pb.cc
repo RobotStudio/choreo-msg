@@ -134,12 +134,12 @@ void AddDescriptorsImpl() {
       "\"O\n\rWrenchStamped\022\036\n\006header\030\001 \001(\0132\016.chor"
       "eo.Header\022\036\n\006wrench\030\002 \001(\0132\016.choreo.Wrenc"
       "h\"I\n\006Wrench\022\036\n\005force\030\001 \001(\0132\017.choreo.Vect"
-      "or3\022\037\n\006torque\030\002 \001(\0132\017.choreo.Vector3B+Z)"
-      "github.com/RobotStudio/choreo-msg/msg;ms"
-      "gb\006proto3"
+      "or3\022\037\n\006torque\030\002 \001(\0132\017.choreo.Vector3BIZG"
+      "github.com/RobotStudio/choreo-msg/msg/ge"
+      "ometric;rs.choreo.msg.geometricb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 289);
+      descriptor, 319);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/wrench.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

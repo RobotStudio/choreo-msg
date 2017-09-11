@@ -221,11 +221,12 @@ void AddDescriptorsImpl() {
       "\001(\0132\017.choreo.Float64\"}\n\rTimeReference\022\036\n"
       "\006header\030\001 \001(\0132\016.choreo.Header\022,\n\010time_re"
       "f\030\002 \001(\0132\032.google.protobuf.Timestamp\022\036\n\006s"
-      "ource\030\003 \001(\0132\016.choreo.StringB+Z)github.co"
-      "m/RobotStudio/choreo-msg/msg;msgb\006proto3"
+      "ource\030\003 \001(\0132\016.choreo.StringBCZAgithub.co"
+      "m/RobotStudio/choreo-msg/msg/sensor;rs.c"
+      "horeo.msg.sensorb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 800);
+      descriptor, 824);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "sensor/basic.proto", &protobuf_RegisterTypes);
   ::google::protobuf::protobuf_google_2fprotobuf_2ftimestamp_2eproto::AddDescriptors();

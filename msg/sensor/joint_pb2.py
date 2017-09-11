@@ -25,7 +25,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='sensor/joint.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x12sensor/joint.proto\x12\x06\x63horeo\x1a\x15primitive/float.proto\x1a\x16primitive/header.proto\x1a\x16primitive/string.proto\x1a\x19geometric/transform.proto\x1a\x15geometric/twist.proto\x1a\x16geometric/wrench.proto\"\xb6\x01\n\nJointState\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1d\n\x05names\x18\x02 \x03(\x0b\x32\x0e.choreo.String\x12\"\n\tpositions\x18\x03 \x03(\x0b\x32\x0f.choreo.Float64\x12#\n\nvelocities\x18\x04 \x03(\x0b\x32\x0f.choreo.Float64\x12 \n\x07\x65\x66\x66orts\x18\x05 \x03(\x0b\x32\x0f.choreo.Float64\"\x9c\x01\n\x12MultiDOFJointState\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12%\n\ntransforms\x18\x02 \x03(\x0b\x32\x11.choreo.Transform\x12\x1d\n\x06twists\x18\x03 \x03(\x0b\x32\r.choreo.Twist\x12 \n\x08wrenches\x18\x04 \x03(\x0b\x32\x0e.choreo.WrenchB+Z)github.com/RobotStudio/choreo-msg/msg;msgb\x06proto3')
+  serialized_pb=_b('\n\x12sensor/joint.proto\x12\x06\x63horeo\x1a\x15primitive/float.proto\x1a\x16primitive/header.proto\x1a\x16primitive/string.proto\x1a\x19geometric/transform.proto\x1a\x15geometric/twist.proto\x1a\x16geometric/wrench.proto\"\xb6\x01\n\nJointState\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1d\n\x05names\x18\x02 \x03(\x0b\x32\x0e.choreo.String\x12\"\n\tpositions\x18\x03 \x03(\x0b\x32\x0f.choreo.Float64\x12#\n\nvelocities\x18\x04 \x03(\x0b\x32\x0f.choreo.Float64\x12 \n\x07\x65\x66\x66orts\x18\x05 \x03(\x0b\x32\x0f.choreo.Float64\"\x9c\x01\n\x12MultiDOFJointState\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12%\n\ntransforms\x18\x02 \x03(\x0b\x32\x11.choreo.Transform\x12\x1d\n\x06twists\x18\x03 \x03(\x0b\x32\r.choreo.Twist\x12 \n\x08wrenches\x18\x04 \x03(\x0b\x32\x0e.choreo.WrenchBCZAgithub.com/RobotStudio/choreo-msg/msg/sensor;rs.choreo.msg.sensorb\x06proto3')
   ,
   dependencies=[primitive_dot_float__pb2.DESCRIPTOR,primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_string__pb2.DESCRIPTOR,geometric_dot_transform__pb2.DESCRIPTOR,geometric_dot_twist__pb2.DESCRIPTOR,geometric_dot_wrench__pb2.DESCRIPTOR,])
 
@@ -171,5 +171,5 @@ _sym_db.RegisterMessage(MultiDOFJointState)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z)github.com/RobotStudio/choreo-msg/msg;msg'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZAgithub.com/RobotStudio/choreo-msg/msg/sensor;rs.choreo.msg.sensor'))
 # @@protoc_insertion_point(module_scope)

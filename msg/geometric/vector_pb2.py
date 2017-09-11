@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/vector.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x16geometric/vector.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\"Q\n\x0eVector3Stamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1f\n\x06vector\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3\"*\n\x07Vector3\x12\t\n\x01x\x18\x01 \x01(\x01\x12\t\n\x01y\x18\x02 \x01(\x01\x12\t\n\x01z\x18\x03 \x01(\x01\x42+Z)github.com/RobotStudio/choreo-msg/msg;msgb\x06proto3')
+  serialized_pb=_b('\n\x16geometric/vector.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\"Q\n\x0eVector3Stamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1f\n\x06vector\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3\"*\n\x07Vector3\x12\t\n\x01x\x18\x01 \x01(\x01\x12\t\n\x01y\x18\x02 \x01(\x01\x12\t\n\x01z\x18\x03 \x01(\x01\x42IZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometricb\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,])
 
@@ -131,5 +131,5 @@ _sym_db.RegisterMessage(Vector3)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z)github.com/RobotStudio/choreo-msg/msg;msg'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometric'))
 # @@protoc_insertion_point(module_scope)

@@ -158,12 +158,13 @@ void AddDescriptorsImpl() {
       ".Float64\022\034\n\003ixy\030\004 \001(\0132\017.choreo.Float64\022\034"
       "\n\003ixz\030\005 \001(\0132\017.choreo.Float64\022\034\n\003iyy\030\007 \001("
       "\0132\017.choreo.Float64\022\034\n\003iyz\030\010 \001(\0132\017.choreo"
-      ".Float64\022\034\n\003izz\030\006 \001(\0132\017.choreo.Float64B+"
-      "Z)github.com/RobotStudio/choreo-msg/msg;"
-      "msgb\006proto3"
+      ".Float64\022\034\n\003izz\030\006 \001(\0132\017.choreo.Float64BI"
+      "ZGgithub.com/RobotStudio/choreo-msg/msg/"
+      "geometric;rs.choreo.msg.geometricb\006proto"
+      "3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 491);
+      descriptor, 521);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/inertia.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

@@ -472,8 +472,9 @@ public final class BytesOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025primitive/bytes.proto\022\006choreo\"\025\n\005Bytes" +
-      "\022\014\n\004data\030\001 \001(\014B+Z)github.com/RobotStudio" +
-      "/choreo-msg/msg;msgb\006proto3"
+      "\022\014\n\004data\030\001 \001(\014BIZGgithub.com/RobotStudio" +
+      "/choreo-msg/msg/primitive;rs.choreo.msg." +
+      "primitiveb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

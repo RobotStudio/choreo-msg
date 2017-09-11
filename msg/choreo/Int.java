@@ -7212,9 +7212,9 @@ public final class Int {
       "Int64\022\014\n\004data\030\001 \001(\003\"+\n\013UInt32Array\022\034\n\004da" +
       "ta\030\001 \003(\0132\016.choreo.UInt32\"\026\n\006UInt32\022\014\n\004da" +
       "ta\030\001 \001(\r\"+\n\013UInt64Array\022\034\n\004data\030\001 \003(\0132\016.",
-      "choreo.UInt64\"\026\n\006UInt64\022\014\n\004data\030\001 \001(\004B+Z" +
-      ")github.com/RobotStudio/choreo-msg/msg;m" +
-      "sgb\006proto3"
+      "choreo.UInt64\"\026\n\006UInt64\022\014\n\004data\030\001 \001(\004BIZ" +
+      "Ggithub.com/RobotStudio/choreo-msg/msg/p" +
+      "rimitive;rs.choreo.msg.primitiveb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

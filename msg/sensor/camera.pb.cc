@@ -283,12 +283,12 @@ void AddDescriptorsImpl() {
       "a\030\007 \003(\0132\016.choreo.UInt32\"{\n\tColorRGBA\022\032\n\001"
       "r\030\001 \001(\0132\017.choreo.Float32\022\032\n\001g\030\002 \001(\0132\017.ch"
       "oreo.Float32\022\032\n\001b\030\003 \001(\0132\017.choreo.Float32"
-      "\022\032\n\001a\030\004 \001(\0132\017.choreo.Float32B+Z)github.c"
-      "om/RobotStudio/choreo-msg/msg;msgb\006proto"
-      "3"
+      "\022\032\n\001a\030\004 \001(\0132\017.choreo.Float32BCZAgithub.c"
+      "om/RobotStudio/choreo-msg/msg/sensor;rs."
+      "choreo.msg.sensorb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1281);
+      descriptor, 1305);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "sensor/camera.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fbool_2eproto::AddDescriptors();

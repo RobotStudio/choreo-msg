@@ -3292,8 +3292,9 @@ public final class AccelOuterClass {
       " \001(\0132\r.choreo.Accel\022#\n\ncovariance\030\002 \003(\0132" +
       "\017.choreo.Float64\"J\n\005Accel\022\037\n\006linear\030\001 \001(",
       "\0132\017.choreo.Vector3\022 \n\007angular\030\002 \001(\0132\017.ch" +
-      "oreo.Vector3B+Z)github.com/RobotStudio/c" +
-      "horeo-msg/msg;msgb\006proto3"
+      "oreo.Vector3BIZGgithub.com/RobotStudio/c" +
+      "horeo-msg/msg/geometric;rs.choreo.msg.ge" +
+      "ometricb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
