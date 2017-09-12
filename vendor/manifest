@@ -1,0 +1,13 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/golang/protobuf",
+			"repository": "https://github.com/golang/protobuf",
+			"vcs": "git",
+			"revision": "17ce1425424ab154092bbb43af630bd647f3bb0d",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
