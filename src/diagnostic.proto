@@ -6,7 +6,8 @@ import "primitive/string.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg;rs.choreo.msg.diagnostic";
+// option go_package = "github.com/RobotStudio/choreo-msg/msg;rs.choreo.msg.diagnostic";
+option go_package = "github.com/RobotStudio/choreo-msg/msg;rs.choreo.msg";
 
 message KeyValue {
   String key = 1;
