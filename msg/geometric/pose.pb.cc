@@ -243,12 +243,11 @@ void AddDescriptorsImpl() {
       "Float64\022\036\n\005theta\030\003 \001(\0132\017.choreo.Float64\""
       "U\n\022PoseWithCovariance\022\032\n\004pose\030\001 \001(\0132\014.ch"
       "oreo.Pose\022#\n\ncovariance\030\002 \003(\0132\017.choreo.F"
-      "loat64BIZGgithub.com/RobotStudio/choreo-"
-      "msg/msg/geometric;rs.choreo.msg.geometri"
-      "cb\006proto3"
+      "loat64B1Z/github.com/RobotStudio/choreo-"
+      "msg/msg/geometricb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 809);
+      descriptor, 785);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/pose.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

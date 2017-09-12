@@ -137,12 +137,11 @@ void AddDescriptorsImpl() {
       "der\022$\n\ttransform\030\002 \001(\0132\021.choreo.Transfor"
       "m\"W\n\tTransform\022$\n\013translation\030\001 \001(\0132\017.ch"
       "oreo.Vector3\022$\n\010rotation\030\002 \001(\0132\022.choreo."
-      "QuaternionBIZGgithub.com/RobotStudio/cho"
-      "reo-msg/msg/geometric;rs.choreo.msg.geom"
-      "etricb\006proto3"
+      "QuaternionB1Z/github.com/RobotStudio/cho"
+      "reo-msg/msg/geometricb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 373);
+      descriptor, 349);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/transform.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

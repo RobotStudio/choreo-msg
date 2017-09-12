@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/twist.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x15geometric/twist.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x16geometric/vector.proto\"L\n\x0cTwistStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1c\n\x05twist\x18\x02 \x01(\x0b\x32\r.choreo.Twist\"h\n\x1aTwistWithCovarianceStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12*\n\x05twist\x18\x02 \x01(\x0b\x32\x1b.choreo.TwistWithCovariance\"J\n\x05Twist\x12\x1f\n\x06linear\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12 \n\x07\x61ngular\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3\"X\n\x13TwistWithCovariance\x12\x1c\n\x05twist\x18\x01 \x01(\x0b\x32\r.choreo.Twist\x12#\n\ncovariance\x18\x02 \x03(\x0b\x32\x0f.choreo.Float64BIZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometricb\x06proto3')
+  serialized_pb=_b('\n\x15geometric/twist.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x16geometric/vector.proto\"L\n\x0cTwistStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1c\n\x05twist\x18\x02 \x01(\x0b\x32\r.choreo.Twist\"h\n\x1aTwistWithCovarianceStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12*\n\x05twist\x18\x02 \x01(\x0b\x32\x1b.choreo.TwistWithCovariance\"J\n\x05Twist\x12\x1f\n\x06linear\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12 \n\x07\x61ngular\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3\"X\n\x13TwistWithCovariance\x12\x1c\n\x05twist\x18\x01 \x01(\x0b\x32\r.choreo.Twist\x12#\n\ncovariance\x18\x02 \x03(\x0b\x32\x0f.choreo.Float64B1Z/github.com/RobotStudio/choreo-msg/msg/geometricb\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_float__pb2.DESCRIPTOR,geometric_dot_vector__pb2.DESCRIPTOR,])
 
@@ -224,5 +224,5 @@ _sym_db.RegisterMessage(TwistWithCovariance)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometric'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/geometric'))
 # @@protoc_insertion_point(module_scope)

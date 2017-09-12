@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='sensor/joystick.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x15sensor/joystick.proto\x12\x06\x63horeo\x1a\x15primitive/float.proto\x1a\x16primitive/header.proto\x1a\x13primitive/int.proto\"d\n\x03Joy\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1d\n\x04\x61xes\x18\x02 \x03(\x0b\x32\x0f.choreo.Float32\x12\x1e\n\x07\x62uttons\x18\x03 \x03(\x0b\x32\r.choreo.Int32\"\xae\x01\n\x0bJoyFeedback\x12.\n\x04type\x18\x01 \x01(\x0e\x32 .choreo.JoyFeedback.FeedbackType\x12\x1a\n\x02id\x18\x02 \x01(\x0b\x32\x0e.choreo.UInt32\x12\"\n\tintensity\x18\x03 \x01(\x0b\x32\x0f.choreo.Float32\"/\n\x0c\x46\x65\x65\x64\x62\x61\x63kType\x12\x07\n\x03LED\x10\x00\x12\n\n\x06RUMBLE\x10\x01\x12\n\n\x06\x42UZZER\x10\x02\"6\n\x10JoyFeedbackArray\x12\"\n\x05\x61rray\x18\x01 \x03(\x0b\x32\x13.choreo.JoyFeedbackBCZAgithub.com/RobotStudio/choreo-msg/msg/sensor;rs.choreo.msg.sensorb\x06proto3')
+  serialized_pb=_b('\n\x15sensor/joystick.proto\x12\x06\x63horeo\x1a\x15primitive/float.proto\x1a\x16primitive/header.proto\x1a\x13primitive/int.proto\"d\n\x03Joy\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1d\n\x04\x61xes\x18\x02 \x03(\x0b\x32\x0f.choreo.Float32\x12\x1e\n\x07\x62uttons\x18\x03 \x03(\x0b\x32\r.choreo.Int32\"\xae\x01\n\x0bJoyFeedback\x12.\n\x04type\x18\x01 \x01(\x0e\x32 .choreo.JoyFeedback.FeedbackType\x12\x1a\n\x02id\x18\x02 \x01(\x0b\x32\x0e.choreo.UInt32\x12\"\n\tintensity\x18\x03 \x01(\x0b\x32\x0f.choreo.Float32\"/\n\x0c\x46\x65\x65\x64\x62\x61\x63kType\x12\x07\n\x03LED\x10\x00\x12\n\n\x06RUMBLE\x10\x01\x12\n\n\x06\x42UZZER\x10\x02\"6\n\x10JoyFeedbackArray\x12\"\n\x05\x61rray\x18\x01 \x03(\x0b\x32\x13.choreo.JoyFeedbackB.Z,github.com/RobotStudio/choreo-msg/msg/sensorb\x06proto3')
   ,
   dependencies=[primitive_dot_float__pb2.DESCRIPTOR,primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_int__pb2.DESCRIPTOR,])
 
@@ -212,5 +212,5 @@ _sym_db.RegisterMessage(JoyFeedbackArray)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZAgithub.com/RobotStudio/choreo-msg/msg/sensor;rs.choreo.msg.sensor'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z,github.com/RobotStudio/choreo-msg/msg/sensor'))
 # @@protoc_insertion_point(module_scope)

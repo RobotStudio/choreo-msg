@@ -218,12 +218,11 @@ void AddDescriptorsImpl() {
       "(.choreo.NavSatFix.PositionCovarianceTyp"
       "e\"X\n\026PositionCovarianceType\022\013\n\007UNKNOWN\020\000"
       "\022\020\n\014APPROXIMATED\020\001\022\024\n\020DIAGONAL_UNKNOWN\020\002"
-      "\022\t\n\005KNOWN\020\003BCZAgithub.com/RobotStudio/ch"
-      "oreo-msg/msg/sensor;rs.choreo.msg.sensor"
-      "b\006proto3"
+      "\022\t\n\005KNOWN\020\003B.Z,github.com/RobotStudio/ch"
+      "oreo-msg/msg/sensorb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1328);
+      descriptor, 1307);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "sensor/imu.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2ffloat_2eproto::AddDescriptors();

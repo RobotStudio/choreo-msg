@@ -3068,9 +3068,9 @@ public final class Joystick {
       "choreo.UInt32\022\"\n\tintensity\030\003 \001(\0132\017.chore" +
       "o.Float32\"/\n\014FeedbackType\022\007\n\003LED\020\000\022\n\n\006RU" +
       "MBLE\020\001\022\n\n\006BUZZER\020\002\"6\n\020JoyFeedbackArray\022\"",
-      "\n\005array\030\001 \003(\0132\023.choreo.JoyFeedbackBCZAgi" +
+      "\n\005array\030\001 \003(\0132\023.choreo.JoyFeedbackB.Z,gi" +
       "thub.com/RobotStudio/choreo-msg/msg/sens" +
-      "or;rs.choreo.msg.sensorb\006proto3"
+      "orb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

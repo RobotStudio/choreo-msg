@@ -186,12 +186,11 @@ void AddDescriptorsImpl() {
       "UNKNOWN\020\000\022\023\n\017TECHNOLOGY_NIMH\020\001\022\023\n\017TECHNO"
       "LOGY_LION\020\002\022\023\n\017TECHNOLOGY_LIPO\020\003\022\023\n\017TECH"
       "NOLOGY_LIFE\020\004\022\023\n\017TECHNOLOGY_NICD\020\005\022\023\n\017TE"
-      "CHNOLOGY_LIMN\020\006BCZAgithub.com/RobotStudi"
-      "o/choreo-msg/msg/sensor;rs.choreo.msg.se"
-      "nsorb\006proto3"
+      "CHNOLOGY_LIMN\020\006B.Z,github.com/RobotStudi"
+      "o/choreo-msg/msg/sensorb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1412);
+      descriptor, 1391);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "sensor/battery.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fbool_2eproto::AddDescriptors();

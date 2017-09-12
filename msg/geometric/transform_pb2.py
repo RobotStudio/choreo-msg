@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/transform.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x19geometric/transform.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x16geometric/vector.proto\x1a\x1ageometric/quaternion.proto\"X\n\x10TransformStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12$\n\ttransform\x18\x02 \x01(\x0b\x32\x11.choreo.Transform\"W\n\tTransform\x12$\n\x0btranslation\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12$\n\x08rotation\x18\x02 \x01(\x0b\x32\x12.choreo.QuaternionBIZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometricb\x06proto3')
+  serialized_pb=_b('\n\x19geometric/transform.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x16geometric/vector.proto\x1a\x1ageometric/quaternion.proto\"X\n\x10TransformStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12$\n\ttransform\x18\x02 \x01(\x0b\x32\x11.choreo.Transform\"W\n\tTransform\x12$\n\x0btranslation\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12$\n\x08rotation\x18\x02 \x01(\x0b\x32\x12.choreo.QuaternionB1Z/github.com/RobotStudio/choreo-msg/msg/geometricb\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,geometric_dot_vector__pb2.DESCRIPTOR,geometric_dot_quaternion__pb2.DESCRIPTOR,])
 
@@ -128,5 +128,5 @@ _sym_db.RegisterMessage(Transform)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZGgithub.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometric'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/geometric'))
 # @@protoc_insertion_point(module_scope)

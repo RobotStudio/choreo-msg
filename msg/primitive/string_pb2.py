@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='primitive/string.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x16primitive/string.proto\x12\x06\x63horeo\"\x16\n\x06String\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\tBIZGgithub.com/RobotStudio/choreo-msg/msg/primitive;rs.choreo.msg.primitiveb\x06proto3')
+  serialized_pb=_b('\n\x16primitive/string.proto\x12\x06\x63horeo\"\x16\n\x06String\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\tB1Z/github.com/RobotStudio/choreo-msg/msg/primitiveb\x06proto3')
 )
 
 
@@ -67,5 +67,5 @@ _sym_db.RegisterMessage(String)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('ZGgithub.com/RobotStudio/choreo-msg/msg/primitive;rs.choreo.msg.primitive'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/primitive'))
 # @@protoc_insertion_point(module_scope)
