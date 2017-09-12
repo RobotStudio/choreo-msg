@@ -5,7 +5,7 @@ import "geometric/quaternion.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric;rs.choreo.msg.geometric";
+option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric";
 
 message TransformStamped {
   Header header = 1;

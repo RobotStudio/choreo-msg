@@ -1,7 +1,7 @@
 syntax = "proto3";
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/primitive;rs.choreo.msg.primitive";
+option go_package = "github.com/RobotStudio/choreo-msg/msg/primitive";
 
 message Fixed32Array {
   repeated Fixed32 data = 1;

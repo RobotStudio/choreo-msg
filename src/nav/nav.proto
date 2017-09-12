@@ -14,8 +14,8 @@ import "geometric/twist.proto";
 
 package choreo;
 
-// option go_package = "github.com/RobotStudio/choreo-msg/msg;rs.choreo.msg.nav";
-option go_package = "github.com/RobotStudio/choreo-msg/msg;rs.choreo.msg";
+// option go_package = "github.com/RobotStudio/choreo-msg/msg";
+option go_package = "github.com/RobotStudio/choreo-msg/msg";
 
 message GridCells {
   Header header = 1;
