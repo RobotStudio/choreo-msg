@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='action/action.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x13\x61\x63tion/action.proto\x12\x06\x63horeo\x1a\x1fgoogle/protobuf/timestamp.proto\x1a\x16primitive/header.proto\x1a\x16primitive/string.proto\"O\n\x06GoalID\x12)\n\x05stamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x1a\n\x02id\x18\x02 \x01(\x0b\x32\x0e.choreo.String\"\x9a\x02\n\nGoalStatus\x12\x1f\n\x07goal_id\x18\x01 \x01(\x0b\x32\x0e.choreo.GoalID\x12\x31\n\x06status\x18\x02 \x01(\x0e\x32!.choreo.GoalStatus.GoalStatusType\x12\x1c\n\x04text\x18\x03 \x01(\x0b\x32\x0e.choreo.String\"\x99\x01\n\x0eGoalStatusType\x12\x0b\n\x07PENDING\x10\x00\x12\n\n\x06\x41\x43TIVE\x10\x01\x12\r\n\tPREEMPTED\x10\x02\x12\r\n\tSUCCEEDED\x10\x03\x12\x0b\n\x07\x41\x42ORTED\x10\x04\x12\x0c\n\x08REJECTED\x10\x05\x12\x0e\n\nPREEMPTING\x10\x06\x12\r\n\tRECALLING\x10\x07\x12\x0c\n\x08RECALLED\x10\x08\x12\x08\n\x04LOST\x10\t\"Z\n\x0fGoalStatusArray\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\'\n\x0bstatus_list\x18\x02 \x03(\x0b\x32\x12.choreo.GoalStatusB\'Z%github.com/RobotStudio/choreo-msg/msgb\x06proto3')
+  serialized_pb=_b('\n\x13\x61\x63tion/action.proto\x12\x06\x63horeo\x1a\x1fgoogle/protobuf/timestamp.proto\x1a\x16primitive/header.proto\x1a\x16primitive/string.proto\"O\n\x06GoalID\x12)\n\x05stamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x1a\n\x02id\x18\x02 \x01(\x0b\x32\x0e.choreo.String\"\x9a\x02\n\nGoalStatus\x12\x1f\n\x07goal_id\x18\x01 \x01(\x0b\x32\x0e.choreo.GoalID\x12\x31\n\x06status\x18\x02 \x01(\x0e\x32!.choreo.GoalStatus.GoalStatusType\x12\x1c\n\x04text\x18\x03 \x01(\x0b\x32\x0e.choreo.String\"\x99\x01\n\x0eGoalStatusType\x12\x0b\n\x07PENDING\x10\x00\x12\n\n\x06\x41\x43TIVE\x10\x01\x12\r\n\tPREEMPTED\x10\x02\x12\r\n\tSUCCEEDED\x10\x03\x12\x0b\n\x07\x41\x42ORTED\x10\x04\x12\x0c\n\x08REJECTED\x10\x05\x12\x0e\n\nPREEMPTING\x10\x06\x12\r\n\tRECALLING\x10\x07\x12\x0c\n\x08RECALLED\x10\x08\x12\x08\n\x04LOST\x10\t\"Z\n\x0fGoalStatusArray\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\'\n\x0bstatus_list\x18\x02 \x03(\x0b\x32\x12.choreo.GoalStatusB.Z,github.com/RobotStudio/choreo-msg/msg/actionb\x06proto3')
   ,
   dependencies=[google_dot_protobuf_dot_timestamp__pb2.DESCRIPTOR,primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_string__pb2.DESCRIPTOR,])
 
@@ -240,5 +240,5 @@ _sym_db.RegisterMessage(GoalStatusArray)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z%github.com/RobotStudio/choreo-msg/msg'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z,github.com/RobotStudio/choreo-msg/msg/action'))
 # @@protoc_insertion_point(module_scope)

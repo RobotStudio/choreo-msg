@@ -2787,8 +2787,8 @@ public final class Action {
       "\tRECALLING\020\007\022\014\n\010RECALLED\020\010\022\010\n\004LOST\020\t\"Z\n\017" +
       "GoalStatusArray\022\036\n\006header\030\001 \001(\0132\016.choreo" +
       ".Header\022\'\n\013status_list\030\002 \003(\0132\022.choreo.Go" +
-      "alStatusB\'Z%github.com/RobotStudio/chore" +
-      "o-msg/msgb\006proto3"
+      "alStatusB.Z,github.com/RobotStudio/chore" +
+      "o-msg/msg/actionb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
