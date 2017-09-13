@@ -8,8 +8,6 @@ import "primitive/string.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/sensor";
-
 message RegionOfInterest {
   UInt32 x_offset = 1;
   UInt32 y_offset = 2;

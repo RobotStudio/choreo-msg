@@ -4861,9 +4861,7 @@ public final class Basic {
       "\001(\0132\017.choreo.Float64\"}\n\rTimeReference\022\036\n" +
       "\006header\030\001 \001(\0132\016.choreo.Header\022,\n\010time_re" +
       "f\030\002 \001(\0132\032.google.protobuf.Timestamp\022\036\n\006s" +
-      "ource\030\003 \001(\0132\016.choreo.StringB.Z,github.co" +
-      "m/RobotStudio/choreo-msg/msg/sensorb\006pro",
-      "to3"
+      "ource\030\003 \001(\0132\016.choreo.Stringb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

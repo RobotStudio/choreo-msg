@@ -5,8 +5,6 @@ import "geometric/vector.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric";
-
 message AccelStamped {
   Header header = 1;
   Accel accel = 2;

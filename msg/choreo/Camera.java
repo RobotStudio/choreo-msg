@@ -9417,9 +9417,7 @@ public final class Camera {
       "a\030\007 \003(\0132\016.choreo.UInt32\"{\n\tColorRGBA\022\032\n\001" +
       "r\030\001 \001(\0132\017.choreo.Float32\022\032\n\001g\030\002 \001(\0132\017.ch" +
       "oreo.Float32\022\032\n\001b\030\003 \001(\0132\017.choreo.Float32",
-      "\022\032\n\001a\030\004 \001(\0132\017.choreo.Float32B.Z,github.c" +
-      "om/RobotStudio/choreo-msg/msg/sensorb\006pr" +
-      "oto3"
+      "\022\032\n\001a\030\004 \001(\0132\017.choreo.Float32b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

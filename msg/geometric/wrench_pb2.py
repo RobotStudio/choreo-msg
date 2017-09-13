@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/wrench.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x16geometric/wrench.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x16geometric/vector.proto\"O\n\rWrenchStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1e\n\x06wrench\x18\x02 \x01(\x0b\x32\x0e.choreo.Wrench\"I\n\x06Wrench\x12\x1e\n\x05\x66orce\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12\x1f\n\x06torque\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3B1Z/github.com/RobotStudio/choreo-msg/msg/geometricb\x06proto3')
+  serialized_pb=_b('\n\x16geometric/wrench.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x16geometric/vector.proto\"O\n\rWrenchStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1e\n\x06wrench\x18\x02 \x01(\x0b\x32\x0e.choreo.Wrench\"I\n\x06Wrench\x12\x1e\n\x05\x66orce\x18\x01 \x01(\x0b\x32\x0f.choreo.Vector3\x12\x1f\n\x06torque\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3b\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,geometric_dot_vector__pb2.DESCRIPTOR,])
 
@@ -126,6 +126,4 @@ Wrench = _reflection.GeneratedProtocolMessageType('Wrench', (_message.Message,),
 _sym_db.RegisterMessage(Wrench)
 
 
-DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/geometric'))
 # @@protoc_insertion_point(module_scope)

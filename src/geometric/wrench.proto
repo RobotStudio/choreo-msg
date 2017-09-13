@@ -4,8 +4,6 @@ import "geometric/vector.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric";
-
 message WrenchStamped {
   Header header = 1;
   Wrench wrench = 2;

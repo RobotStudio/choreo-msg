@@ -6,8 +6,6 @@ import "primitive/int.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/sensor";
-
 message Joy {
   Header header = 1;
   repeated Float32 axes = 2;

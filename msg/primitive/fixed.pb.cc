@@ -149,11 +149,10 @@ void AddDescriptorsImpl() {
       "32Array\022\035\n\004data\030\001 \003(\0132\017.choreo.Fixed32\"\027"
       "\n\007Fixed32\022\014\n\004data\030\001 \001(\r\"-\n\014Fixed64Array\022"
       "\035\n\004data\030\001 \003(\0132\017.choreo.Fixed64\"\027\n\007Fixed6"
-      "4\022\014\n\004data\030\001 \001(\004B1Z/github.com/RobotStudi"
-      "o/choreo-msg/msg/primitiveb\006proto3"
+      "4\022\014\n\004data\030\001 \001(\004b\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 234);
+      descriptor, 183);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "primitive/fixed.proto", &protobuf_RegisterTypes);
   ::google::protobuf::internal::OnShutdown(&TableStruct::Shutdown);

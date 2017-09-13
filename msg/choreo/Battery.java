@@ -3859,8 +3859,7 @@ public final class Battery {
       "UNKNOWN\020\000\022\023\n\017TECHNOLOGY_NIMH\020\001\022\023\n\017TECHNO" +
       "LOGY_LION\020\002\022\023\n\017TECHNOLOGY_LIPO\020\003\022\023\n\017TECH" +
       "NOLOGY_LIFE\020\004\022\023\n\017TECHNOLOGY_NICD\020\005\022\023\n\017TE" +
-      "CHNOLOGY_LIMN\020\006B.Z,github.com/RobotStudi" +
-      "o/choreo-msg/msg/sensorb\006proto3"
+      "CHNOLOGY_LIMN\020\006b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

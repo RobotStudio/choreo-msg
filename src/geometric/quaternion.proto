@@ -4,8 +4,6 @@ import "primitive/float.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric";
-
 message QuaternionStamped {
   Header header = 1;
   Quaternion quaternion = 2;

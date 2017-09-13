@@ -283,11 +283,10 @@ void AddDescriptorsImpl() {
       "ce\030\003 \001(\0132\017.choreo.Float32\"l\n\rSetMapReque"
       "st\022\"\n\003map\030\001 \001(\0132\025.choreo.OccupancyGrid\0227"
       "\n\014initial_pose\030\002 \001(\0132!.choreo.PoseWithCo"
-      "varianceStampedB+Z)github.com/RobotStudi"
-      "o/choreo-msg/msg/navb\006proto3"
+      "varianceStampedb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1228);
+      descriptor, 1183);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "nav/nav.proto", &protobuf_RegisterTypes);
   ::google::protobuf::protobuf_google_2fprotobuf_2ftimestamp_2eproto::AddDescriptors();

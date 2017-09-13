@@ -163,11 +163,10 @@ void AddDescriptorsImpl() {
       "\tRECALLING\020\007\022\014\n\010RECALLED\020\010\022\010\n\004LOST\020\t\"Z\n\017"
       "GoalStatusArray\022\036\n\006header\030\001 \001(\0132\016.choreo"
       ".Header\022\'\n\013status_list\030\002 \003(\0132\022.choreo.Go"
-      "alStatusB.Z,github.com/RobotStudio/chore"
-      "o-msg/msg/actionb\006proto3"
+      "alStatusb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 624);
+      descriptor, 576);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "action/action.proto", &protobuf_RegisterTypes);
   ::google::protobuf::protobuf_google_2fprotobuf_2ftimestamp_2eproto::AddDescriptors();

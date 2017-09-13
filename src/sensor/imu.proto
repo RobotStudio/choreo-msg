@@ -8,8 +8,6 @@ import "geometric/vector.proto";
 
 package choreo;
 
-option go_package = "github.com/RobotStudio/choreo-msg/msg/sensor";
-
 message IMU {
   Header header = 1;
 

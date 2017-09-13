@@ -1568,9 +1568,8 @@ public final class WrenchOuterClass {
       "\"O\n\rWrenchStamped\022\036\n\006header\030\001 \001(\0132\016.chor" +
       "eo.Header\022\036\n\006wrench\030\002 \001(\0132\016.choreo.Wrenc" +
       "h\"I\n\006Wrench\022\036\n\005force\030\001 \001(\0132\017.choreo.Vect" +
-      "or3\022\037\n\006torque\030\002 \001(\0132\017.choreo.Vector3B1Z/" +
-      "github.com/RobotStudio/choreo-msg/msg/ge" +
-      "ometricb\006proto3"
+      "or3\022\037\n\006torque\030\002 \001(\0132\017.choreo.Vector3b\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

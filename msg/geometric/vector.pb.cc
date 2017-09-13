@@ -129,12 +129,10 @@ void AddDescriptorsImpl() {
       "ive/header.proto\"Q\n\016Vector3Stamped\022\036\n\006he"
       "ader\030\001 \001(\0132\016.choreo.Header\022\037\n\006vector\030\002 \001"
       "(\0132\017.choreo.Vector3\"*\n\007Vector3\022\t\n\001x\030\001 \001("
-      "\001\022\t\n\001y\030\002 \001(\001\022\t\n\001z\030\003 \001(\001B1Z/github.com/Ro"
-      "botStudio/choreo-msg/msg/geometricb\006prot"
-      "o3"
+      "\001\022\t\n\001y\030\002 \001(\001\022\t\n\001z\030\003 \001(\001b\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 242);
+      descriptor, 191);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/vector.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

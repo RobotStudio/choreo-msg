@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/inertia.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x17geometric/inertia.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x16geometric/vector.proto\"R\n\x0eInertiaStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12 \n\x07inertia\x18\x02 \x01(\x0b\x32\x0f.choreo.Inertia\"\xf7\x01\n\x07Inertia\x12\x1a\n\x01m\x18\x01 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03\x63om\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3\x12\x1c\n\x03ixx\x18\x03 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03ixy\x18\x04 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03ixz\x18\x05 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03iyy\x18\x07 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03iyz\x18\x08 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03izz\x18\x06 \x01(\x0b\x32\x0f.choreo.Float64B1Z/github.com/RobotStudio/choreo-msg/msg/geometricb\x06proto3')
+  serialized_pb=_b('\n\x17geometric/inertia.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x16geometric/vector.proto\"R\n\x0eInertiaStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12 \n\x07inertia\x18\x02 \x01(\x0b\x32\x0f.choreo.Inertia\"\xf7\x01\n\x07Inertia\x12\x1a\n\x01m\x18\x01 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03\x63om\x18\x02 \x01(\x0b\x32\x0f.choreo.Vector3\x12\x1c\n\x03ixx\x18\x03 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03ixy\x18\x04 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03ixz\x18\x05 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03iyy\x18\x07 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03iyz\x18\x08 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1c\n\x03izz\x18\x06 \x01(\x0b\x32\x0f.choreo.Float64b\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_float__pb2.DESCRIPTOR,geometric_dot_vector__pb2.DESCRIPTOR,])
 
@@ -175,6 +175,4 @@ Inertia = _reflection.GeneratedProtocolMessageType('Inertia', (_message.Message,
 _sym_db.RegisterMessage(Inertia)
 
 
-DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/geometric'))
 # @@protoc_insertion_point(module_scope)

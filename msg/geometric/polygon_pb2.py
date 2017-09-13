@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/polygon.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x17geometric/polygon.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15geometric/point.proto\"R\n\x0ePolygonStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12 \n\x07polygon\x18\x02 \x01(\x0b\x32\x0f.choreo.Polygon\"V\n\x10Polygon32Stamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\"\n\x07polygon\x18\x02 \x01(\x0b\x32\x11.choreo.Polygon32\"(\n\x07Polygon\x12\x1d\n\x06points\x18\x01 \x03(\x0b\x32\r.choreo.Point\",\n\tPolygon32\x12\x1f\n\x06points\x18\x01 \x03(\x0b\x32\x0f.choreo.Point32B1Z/github.com/RobotStudio/choreo-msg/msg/geometricb\x06proto3')
+  serialized_pb=_b('\n\x17geometric/polygon.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15geometric/point.proto\"R\n\x0ePolygonStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12 \n\x07polygon\x18\x02 \x01(\x0b\x32\x0f.choreo.Polygon\"V\n\x10Polygon32Stamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\"\n\x07polygon\x18\x02 \x01(\x0b\x32\x11.choreo.Polygon32\"(\n\x07Polygon\x12\x1d\n\x06points\x18\x01 \x03(\x0b\x32\r.choreo.Point\",\n\tPolygon32\x12\x1f\n\x06points\x18\x01 \x03(\x0b\x32\x0f.choreo.Point32b\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,geometric_dot_point__pb2.DESCRIPTOR,])
 
@@ -206,6 +206,4 @@ Polygon32 = _reflection.GeneratedProtocolMessageType('Polygon32', (_message.Mess
 _sym_db.RegisterMessage(Polygon32)
 
 
-DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/geometric'))
 # @@protoc_insertion_point(module_scope)
