@@ -17,12 +17,12 @@ PROTOC="$(which protoc)"
 
 cd "$src" || { echo "Could not cd into $src"; exit 1; }
 
+[ -d "$builds" ] && rm -rf "$builds"
+mkdir -p "${builds}"
+
 lang_opts=
 for lang in "${langs[@]}"; do
-  lang_opts="$lang_opts --${lang}_out=${builds}/${lang}"
-
-  [ -d "${builds}/${lang}" ] && rm -rf "${builds:?}/${lang:?}"
-  mkdir -p "${builds:?}/${lang:?}"
+  lang_opts="$lang_opts --${lang}_out=$builds"
 done
 
 find . -iname '*.proto' -type f | while read -r f; do
