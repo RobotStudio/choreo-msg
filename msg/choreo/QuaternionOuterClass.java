@@ -1958,7 +1958,9 @@ public final class QuaternionOuterClass {
       "horeo.Quaternion\"|\n\nQuaternion\022\032\n\001x\030\001 \001(" +
       "\0132\017.choreo.Float64\022\032\n\001y\030\002 \001(\0132\017.choreo.F" +
       "loat64\022\032\n\001z\030\003 \001(\0132\017.choreo.Float64\022\032\n\001w\030" +
-      "\004 \001(\0132\017.choreo.Float64b\006proto3"
+      "\004 \001(\0132\017.choreo.Float64B1Z/github.com/Rob" +
+      "otStudio/choreo-msg/msg/geometricb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -13,6 +13,8 @@ import "sensor/camera.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg/sensor";
+
 message LaserEcho {
   repeated Float32 echoes = 1;
 }

@@ -183,10 +183,12 @@ void AddDescriptorsImpl() {
       "\001y\030\002 \001(\0132\017.choreo.Float32\022\032\n\001z\030\003 \001(\0132\017.c"
       "horeo.Float32\"[\n\005Point\022\032\n\001x\030\001 \001(\0132\017.chor"
       "eo.Float64\022\032\n\001y\030\002 \001(\0132\017.choreo.Float64\022\032"
-      "\n\001z\030\003 \001(\0132\017.choreo.Float64b\006proto3"
+      "\n\001z\030\003 \001(\0132\017.choreo.Float64B1Z/github.com"
+      "/RobotStudio/choreo-msg/msg/geometricb\006p"
+      "roto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 434);
+      descriptor, 485);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/point.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

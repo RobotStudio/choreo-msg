@@ -177,10 +177,11 @@ void AddDescriptorsImpl() {
       ".Vector3\022 \n\007angular\030\002 \001(\0132\017.choreo.Vecto"
       "r3\"X\n\023TwistWithCovariance\022\034\n\005twist\030\001 \001(\013"
       "2\r.choreo.Twist\022#\n\ncovariance\030\002 \003(\0132\017.ch"
-      "oreo.Float64b\006proto3"
+      "oreo.Float64B1Z/github.com/RobotStudio/c"
+      "horeo-msg/msg/geometricb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 460);
+      descriptor, 511);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/twist.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

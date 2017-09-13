@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='primitive/bool.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x14primitive/bool.proto\x12\x06\x63horeo\"\'\n\tBoolArray\x12\x1a\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x0c.choreo.Bool\"\x14\n\x04\x42ool\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n\x14primitive/bool.proto\x12\x06\x63horeo\"\'\n\tBoolArray\x12\x1a\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x0c.choreo.Bool\"\x14\n\x04\x42ool\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x08\x42\x31Z/github.com/RobotStudio/choreo-msg/msg/primitiveb\x06proto3')
 )
 
 
@@ -106,4 +106,6 @@ Bool = _reflection.GeneratedProtocolMessageType('Bool', (_message.Message,), dic
 _sym_db.RegisterMessage(Bool)
 
 
+DESCRIPTOR.has_options = True
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/primitive'))
 # @@protoc_insertion_point(module_scope)

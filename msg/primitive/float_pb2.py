@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='primitive/float.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x15primitive/float.proto\x12\x06\x63horeo\")\n\nFloatArray\x12\x1b\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\r.choreo.Float\"\x15\n\x05\x46loat\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x02\"-\n\x0c\x46loat32Array\x12\x1d\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x0f.choreo.Float32\"\x17\n\x07\x46loat32\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x02\"-\n\x0c\x46loat64Array\x12\x1d\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x0f.choreo.Float64\"\x17\n\x07\x46loat64\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x02\x62\x06proto3')
+  serialized_pb=_b('\n\x15primitive/float.proto\x12\x06\x63horeo\")\n\nFloatArray\x12\x1b\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\r.choreo.Float\"\x15\n\x05\x46loat\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x02\"-\n\x0c\x46loat32Array\x12\x1d\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x0f.choreo.Float32\"\x17\n\x07\x46loat32\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x02\"-\n\x0c\x46loat64Array\x12\x1d\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x0f.choreo.Float64\"\x17\n\x07\x46loat64\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\x02\x42\x31Z/github.com/RobotStudio/choreo-msg/msg/primitiveb\x06proto3')
 )
 
 
@@ -264,4 +264,6 @@ Float64 = _reflection.GeneratedProtocolMessageType('Float64', (_message.Message,
 _sym_db.RegisterMessage(Float64)
 
 
+DESCRIPTOR.has_options = True
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/primitive'))
 # @@protoc_insertion_point(module_scope)

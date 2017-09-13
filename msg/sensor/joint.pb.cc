@@ -146,11 +146,12 @@ void AddDescriptorsImpl() {
       "\001\n\022MultiDOFJointState\022\036\n\006header\030\001 \001(\0132\016."
       "choreo.Header\022%\n\ntransforms\030\002 \003(\0132\021.chor"
       "eo.Transform\022\035\n\006twists\030\003 \003(\0132\r.choreo.Tw"
-      "ist\022 \n\010wrenches\030\004 \003(\0132\016.choreo.Wrenchb\006p"
-      "roto3"
+      "ist\022 \n\010wrenches\030\004 \003(\0132\016.choreo.WrenchB.Z"
+      ",github.com/RobotStudio/choreo-msg/msg/s"
+      "ensorb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 525);
+      descriptor, 573);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "sensor/joint.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2ffloat_2eproto::AddDescriptors();

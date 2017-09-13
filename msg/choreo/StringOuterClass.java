@@ -543,7 +543,8 @@ public final class StringOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026primitive/string.proto\022\006choreo\"\026\n\006Stri" +
-      "ng\022\014\n\004data\030\001 \001(\tb\006proto3"
+      "ng\022\014\n\004data\030\001 \001(\tB1Z/github.com/RobotStud" +
+      "io/choreo-msg/msg/primitiveb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

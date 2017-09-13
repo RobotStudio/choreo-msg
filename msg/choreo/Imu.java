@@ -6190,7 +6190,8 @@ public final class Imu {
       "(.choreo.NavSatFix.PositionCovarianceTyp" +
       "e\"X\n\026PositionCovarianceType\022\013\n\007UNKNOWN\020\000",
       "\022\020\n\014APPROXIMATED\020\001\022\024\n\020DIAGONAL_UNKNOWN\020\002" +
-      "\022\t\n\005KNOWN\020\003b\006proto3"
+      "\022\t\n\005KNOWN\020\003B.Z,github.com/RobotStudio/ch" +
+      "oreo-msg/msg/sensorb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

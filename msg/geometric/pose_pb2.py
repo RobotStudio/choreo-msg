@@ -23,7 +23,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='geometric/pose.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x14geometric/pose.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x15geometric/point.proto\x1a\x1ageometric/quaternion.proto\"I\n\x0bPoseStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1a\n\x04pose\x18\x02 \x01(\x0b\x32\x0c.choreo.Pose\"e\n\x19PoseWithCovarianceStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12(\n\x04pose\x18\x02 \x01(\x0b\x32\x1a.choreo.PoseWithCovariance\"M\n\rPose2DStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1c\n\x04pose\x18\x02 \x01(\x0b\x32\x0e.choreo.Pose2D\"P\n\x04Pose\x12\x1f\n\x08position\x18\x01 \x01(\x0b\x32\r.choreo.Point\x12\'\n\x0borientation\x18\x02 \x01(\x0b\x32\x12.choreo.Quaternion\"H\n\tPoseArray\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1b\n\x05poses\x18\x02 \x03(\x0b\x32\x0c.choreo.Pose\"`\n\x06Pose2D\x12\x1a\n\x01x\x18\x01 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1a\n\x01y\x18\x02 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1e\n\x05theta\x18\x03 \x01(\x0b\x32\x0f.choreo.Float64\"U\n\x12PoseWithCovariance\x12\x1a\n\x04pose\x18\x01 \x01(\x0b\x32\x0c.choreo.Pose\x12#\n\ncovariance\x18\x02 \x03(\x0b\x32\x0f.choreo.Float64b\x06proto3')
+  serialized_pb=_b('\n\x14geometric/pose.proto\x12\x06\x63horeo\x1a\x16primitive/header.proto\x1a\x15primitive/float.proto\x1a\x15geometric/point.proto\x1a\x1ageometric/quaternion.proto\"I\n\x0bPoseStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1a\n\x04pose\x18\x02 \x01(\x0b\x32\x0c.choreo.Pose\"e\n\x19PoseWithCovarianceStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12(\n\x04pose\x18\x02 \x01(\x0b\x32\x1a.choreo.PoseWithCovariance\"M\n\rPose2DStamped\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1c\n\x04pose\x18\x02 \x01(\x0b\x32\x0e.choreo.Pose2D\"P\n\x04Pose\x12\x1f\n\x08position\x18\x01 \x01(\x0b\x32\r.choreo.Point\x12\'\n\x0borientation\x18\x02 \x01(\x0b\x32\x12.choreo.Quaternion\"H\n\tPoseArray\x12\x1e\n\x06header\x18\x01 \x01(\x0b\x32\x0e.choreo.Header\x12\x1b\n\x05poses\x18\x02 \x03(\x0b\x32\x0c.choreo.Pose\"`\n\x06Pose2D\x12\x1a\n\x01x\x18\x01 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1a\n\x01y\x18\x02 \x01(\x0b\x32\x0f.choreo.Float64\x12\x1e\n\x05theta\x18\x03 \x01(\x0b\x32\x0f.choreo.Float64\"U\n\x12PoseWithCovariance\x12\x1a\n\x04pose\x18\x01 \x01(\x0b\x32\x0c.choreo.Pose\x12#\n\ncovariance\x18\x02 \x03(\x0b\x32\x0f.choreo.Float64B1Z/github.com/RobotStudio/choreo-msg/msg/geometricb\x06proto3')
   ,
   dependencies=[primitive_dot_header__pb2.DESCRIPTOR,primitive_dot_float__pb2.DESCRIPTOR,geometric_dot_point__pb2.DESCRIPTOR,geometric_dot_quaternion__pb2.DESCRIPTOR,])
 
@@ -376,4 +376,6 @@ PoseWithCovariance = _reflection.GeneratedProtocolMessageType('PoseWithCovarianc
 _sym_db.RegisterMessage(PoseWithCovariance)
 
 
+DESCRIPTOR.has_options = True
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/geometric'))
 # @@protoc_insertion_point(module_scope)

@@ -111,10 +111,12 @@ void AddDescriptorsImpl() {
       "\n\026primitive/header.proto\022\006choreo\032\037google"
       "/protobuf/timestamp.proto\"R\n\006Header\022\013\n\003s"
       "eq\030\001 \001(\r\022)\n\005stamp\030\002 \001(\0132\032.google.protobu"
-      "f.Timestamp\022\020\n\010frame_id\030\003 \001(\tb\006proto3"
+      "f.Timestamp\022\020\n\010frame_id\030\003 \001(\tB1Z/github."
+      "com/RobotStudio/choreo-msg/msg/primitive"
+      "b\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 157);
+      descriptor, 208);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "primitive/header.proto", &protobuf_RegisterTypes);
   ::google::protobuf::protobuf_google_2fprotobuf_2ftimestamp_2eproto::AddDescriptors();

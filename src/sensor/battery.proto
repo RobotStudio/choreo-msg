@@ -8,6 +8,8 @@ import "primitive/string.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg/sensor";
+
 message BatteryState {
   enum Status {
     STATUS_UNKNOWN = 0;

@@ -5409,8 +5409,9 @@ public final class Diagnostic {
       ".Bool\022\037\n\007message\030\003 \001(\0132\016.choreo.String\"u" +
       "\n\017ServiceSelfTest\022\032\n\002id\030\001 \001(\0132\016.choreo.S" +
       "tring\022\034\n\006passed\030\002 \001(\0132\014.choreo.Bool\022(\n\006s" +
-      "tatus\030\003 \003(\0132\030.choreo.DiagnosticStatusb\006p" +
-      "roto3"
+      "tatus\030\003 \003(\0132\030.choreo.DiagnosticStatusB2Z" +
+      "0github.com/RobotStudio/choreo-msg/msg/d",
+      "iagnosticb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

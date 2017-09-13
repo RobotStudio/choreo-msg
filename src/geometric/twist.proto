@@ -5,6 +5,8 @@ import "geometric/vector.proto";
 
 package choreo;
 
+option go_package = "github.com/RobotStudio/choreo-msg/msg/geometric";
+
 message TwistStamped {
   Header header = 1;
   Twist twist = 2;

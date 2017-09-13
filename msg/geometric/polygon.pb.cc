@@ -165,10 +165,11 @@ void AddDescriptorsImpl() {
       "2\016.choreo.Header\022\"\n\007polygon\030\002 \001(\0132\021.chor"
       "eo.Polygon32\"(\n\007Polygon\022\035\n\006points\030\001 \003(\0132"
       "\r.choreo.Point\",\n\tPolygon32\022\037\n\006points\030\001 "
-      "\003(\0132\017.choreo.Point32b\006proto3"
+      "\003(\0132\017.choreo.Point32B1Z/github.com/Robot"
+      "Studio/choreo-msg/msg/geometricb\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 348);
+      descriptor, 399);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "geometric/polygon.proto", &protobuf_RegisterTypes);
   ::choreo::protobuf_primitive_2fheader_2eproto::AddDescriptors();

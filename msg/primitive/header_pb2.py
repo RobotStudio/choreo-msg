@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='primitive/header.proto',
   package='choreo',
   syntax='proto3',
-  serialized_pb=_b('\n\x16primitive/header.proto\x12\x06\x63horeo\x1a\x1fgoogle/protobuf/timestamp.proto\"R\n\x06Header\x12\x0b\n\x03seq\x18\x01 \x01(\r\x12)\n\x05stamp\x18\x02 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x10\n\x08\x66rame_id\x18\x03 \x01(\tb\x06proto3')
+  serialized_pb=_b('\n\x16primitive/header.proto\x12\x06\x63horeo\x1a\x1fgoogle/protobuf/timestamp.proto\"R\n\x06Header\x12\x0b\n\x03seq\x18\x01 \x01(\r\x12)\n\x05stamp\x18\x02 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x10\n\x08\x66rame_id\x18\x03 \x01(\tB1Z/github.com/RobotStudio/choreo-msg/msg/primitiveb\x06proto3')
   ,
   dependencies=[google_dot_protobuf_dot_timestamp__pb2.DESCRIPTOR,])
 
@@ -83,4 +83,6 @@ Header = _reflection.GeneratedProtocolMessageType('Header', (_message.Message,),
 _sym_db.RegisterMessage(Header)
 
 
+DESCRIPTOR.has_options = True
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z/github.com/RobotStudio/choreo-msg/msg/primitive'))
 # @@protoc_insertion_point(module_scope)
